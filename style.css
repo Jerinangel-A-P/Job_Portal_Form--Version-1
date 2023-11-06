@@ -1,0 +1,109 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 100%;
+    margin: 0px auto;
+background: rgba(209, 232, 255, 0.58);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(209, 232, 255, 0.29);
+    
+}
+h1{
+    text-align: center;
+    color:  rgb(20, 25, 39);
+}
+.abox
+{
+    padding-top: 30px;
+    width: 900px;
+    padding-left:50px ;
+    padding-right:50px ;
+    padding-bottom:30px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom:50px;
+    border: 1px solid  rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 4px 30px  rgba(0,0,0,0.1);
+    border-radius:40px;
+}
+.title-small
+{
+    font-size:20px;
+}
+.form-container
+{
+    margin-top:20px;
+    display: grid;
+   
+    gap:20px;
+}
+.form-control
+{
+    display: flex;
+    flex-direction: column;
+}
+label
+{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+input,select,textarea
+{
+    padding: 6px 10px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 800px;
+}
+select
+{
+    background-color:white;
+}
+input:focus{
+    outline-color:  rgb(68, 87, 144);
+}
+input[type="file"]
+{
+    background-color:white;
+}
+.button-container
+{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+    
+}
+button
+{
+    background-color: rgb(68, 87, 144);
+    border: transparent solid;
+    color:white;
+    border-radius: 8px;
+    height:40px;
+    width:120px;
+    font-size:15px;
+    margin-right:350px;
+}
+button:hover{
+    background-color: rgb(82, 99, 126);
+    border:2px solid rgb(62, 81, 141);
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+#declaration 
+{
+    display: inline-block;
+    margin-left: 0;
+    width :20px;
+}
